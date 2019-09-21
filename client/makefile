@@ -15,4 +15,4 @@ $(target):$(obj)
 	$(CC) -c $< -o $@ -I $(include_path)
 
 clean:
-	@rm -rf $(obj) output
+	@rm -rf $(obj)
